@@ -51,10 +51,6 @@ print("Frames processed per second:", num_frames / (end_time - start_time))
 - `output_video` - Path where the processed video will be saved.
 - `smoothing_window` - Number of frames used for smoothing rotation in stabilization (default: 5).
 
-## Scheme
-
-![Visualization](scheme.png)
-
 ## Notes
 - The script works best with videos that have sufficient features for SIFT keypoint detection.
 - If not enough matches are found between frames, rotation correction may be skipped for those frames.
